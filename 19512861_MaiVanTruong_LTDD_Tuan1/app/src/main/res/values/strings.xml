@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">19512861_MaiVanTruong_LTDD_Tuan1</string>
+    <string-array name="ten">
+        <item>Tèo</item>
+        <item>Tý</item>
+        <item>Bin</item>
+        <item>Bo</item>
+    </string-array>
+</resources>

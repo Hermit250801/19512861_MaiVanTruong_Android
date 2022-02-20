@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp"
+    tools:context=".BaiTap3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuyển đổi năm dương lịch"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="#007d3a"
+        android:textSize="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm dương lịch: "
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/et_NamDuongLich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Chuyển đổi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm âm lịch: "
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/et_NamAmLich"
+            android:layout_width="258dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:background="#ffff00"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#007d3a"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
